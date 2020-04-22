@@ -1,0 +1,6 @@
+--- 
+ - name: Firewall to allow ports
+   firewalld: 
+     ports: {{ portnumber }}
+     permanent: true
+     state: enabled
