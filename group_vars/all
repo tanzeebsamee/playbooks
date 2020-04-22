@@ -1,3 +1,4 @@
 ---
 name: Demo 
 file1: "/root/text1.txt"
+servicename: network
