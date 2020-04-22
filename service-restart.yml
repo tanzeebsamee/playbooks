@@ -1,1 +1,5 @@
-
+---
+ - hosts : all 
+   become : true
+   roles : 
+     - service-restart.yml
