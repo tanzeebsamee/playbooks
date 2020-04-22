@@ -1,0 +1,6 @@
+---
+ - name : Zipping Files
+   archive: 
+     path: {{zipthisfile}}.txt
+     dest: {{zipthisfile}}.zip
+     format: zip
