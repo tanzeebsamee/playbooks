@@ -2,4 +2,4 @@
  - hosts: all
    become: true
    roles : 
-     - software-install.yml
+     - software-install
