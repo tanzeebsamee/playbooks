@@ -1,0 +1,4 @@
+---
+ - name : Installing Common Packages for System Readiness
+   yum : 
+    name : "{{ packages }}"
