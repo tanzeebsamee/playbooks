@@ -1,0 +1,6 @@
+--- 
+ - name : Creating files with contents
+   copy : 
+     dest: {{ destinationfile }}
+     content : 
+       {{ content }}
