@@ -1,1 +1,3 @@
-
+---
+- name: Installing a Software from YUM repository
+  yum : name= {{ SoftwareName }} state= latest
