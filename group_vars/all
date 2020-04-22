@@ -3,3 +3,4 @@ name: Demo
 file1: "/root/text1.txt"
 servicename: network
 SoftwareName: httpd
+etcentry: "192.168.1.99 test.example.com"
