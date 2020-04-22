@@ -1,0 +1,5 @@
+---
+ - name : Updating /etc/hosts file with IP and FQDN
+   lineinfile: 
+     path: /etc/hosts
+     line: {{ etcentry }}
