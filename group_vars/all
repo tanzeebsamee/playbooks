@@ -64,3 +64,7 @@ sourceuuidtomount : b3e48f45-f933-4c8e-a700-22a159ec9077
 
 # Directory to create
 directoryname: /newdirectory
+
+#Change context of Directory for SELinux and make it persistent
+
+selinuxcontextatwebdirectory: srv/git_repos
