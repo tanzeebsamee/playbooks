@@ -1,2 +1,5 @@
 ---
- - name : Files modifed in last 10 Mins
+ - name : Let's move to / directory
+   command : chdir=/
+ - name : Finding out all modified/accessed files in last 10 Mins
+   shell : find . -type f -amin -10 
