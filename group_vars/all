@@ -9,3 +9,4 @@ portnumber: "22/tcp"
 destinationfile: "/root/test.txt"
 content: "This is a test file with contents"
 packages: " telnet , vim "
+SoftwareNameToRemove: httpd
