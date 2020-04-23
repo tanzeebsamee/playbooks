@@ -1,0 +1,6 @@
+---
+ - name: Discover targets on portal and login to the one available
+   open_iscsi:
+     portal: '{{ iscsi_target }}'
+     login: yes
+     discover: yes
