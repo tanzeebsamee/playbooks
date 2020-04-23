@@ -4,3 +4,4 @@
      name : epel
      description: EPEL YUM Repo
      baseurl: https://download.fedoraproject.org/pub/epel/$releasever/$basearch/
+     enabled: yes
