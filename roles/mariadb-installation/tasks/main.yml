@@ -12,3 +12,6 @@
      packages:
      - MariaDB-server
      - MariaDB-client
+     
+ - name: Restarting MariaDB Service
+   service: name= mariadb state=restarted
