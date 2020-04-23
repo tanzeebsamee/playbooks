@@ -1,0 +1,8 @@
+---
+ - name: Check running processes with Higest Memory and CPU usage
+   shell: ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head
+   register: ps_cmd
+
+  - name: Show captured processes
+    debug:
+      var: ps_cmd.stdout
