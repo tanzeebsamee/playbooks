@@ -1,0 +1,11 @@
+---
+ - name: Add repository
+   yum_repository:
+     name: epel
+     description: EPEL YUM repo
+     baseurl: https://download.fedoraproject.org/pub/epel/$releasever/$basearch/
+     enabled: yes
+     
+ - name : Installing Redis Packages
+   yum : name= redis state= latest
+    
