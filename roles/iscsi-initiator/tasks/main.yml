@@ -1,4 +1,7 @@
 ---
+ - name: Installing iscsi-initiator package
+   yum : name=iscsi-initiator-utils state=latest
+ 
  - name: Discover targets on portal and login to the one available
    open_iscsi:
      portal: '{{ iscsi_target }}'
