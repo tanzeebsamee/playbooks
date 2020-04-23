@@ -1,0 +1,9 @@
+---
+ - name : Changing SELinux fcontext of directory
+   sefcontext:
+    target: '{{ selinuxcontextatwebdirectory }}'
+    setype: httpd_sys_content_t 
+    state: present
+
+ - name: Apply new SELinux file context to directory
+   command: restorecon -irv {{ selinuxcontextatwebdirectory }}
