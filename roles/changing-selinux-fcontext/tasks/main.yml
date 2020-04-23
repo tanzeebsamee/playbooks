@@ -1,7 +1,7 @@
 ---
  - name : Changing SELinux fcontext of directory
    sefcontext:
-    target: '{{ selinuxcontextatwebdirectory }}'
+    target: {{ 'selinuxcontextatwebdirectory(/.*)?' }}
     setype: httpd_sys_content_t 
     state: present
 
