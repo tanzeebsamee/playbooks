@@ -1,0 +1,8 @@
+---
+ - name : Mounting the ISO with Read-only permission
+   mount:
+    path: /mnt/dvd
+    src: /dev/sr0
+    fstype: iso9660
+    opts: ro,noauto
+    state: present
