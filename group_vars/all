@@ -11,3 +11,12 @@ content: "This is a test file with contents"
 packages: " telnet , vim "
 SoftwareNameToRemove: httpd
 selinuxstate: enforcing
+
+#Tomcat Installation Variables
+http_port: 8080
+https_port: 8443
+
+#Tomcat GUI user
+
+admin_username: admin
+admin_password: adminsecret
