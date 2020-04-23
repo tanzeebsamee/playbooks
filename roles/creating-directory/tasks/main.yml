@@ -1,0 +1,8 @@
+---
+ - name: Creates directory
+   file:
+     path: {{ directoryname }}
+     state: directory
+     owner: root
+     group: root
+     mode: 0775
