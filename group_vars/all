@@ -1,15 +1,48 @@
 ---
+
+# Creating User
+
 name: Demo 
+
+# File to create without content
+
 file1: "/root/text1.txt"
+
+# Service need to restart
+
 servicename: network
+
+# Software to install
+
 SoftwareName: httpd
+
+# Line to add at /etc/hosts file
+
 etcentry: "192.168.1.99 test.example.com"
+
+# File to ZIP
+
 zipthisfile: "/home/xyz"
+
+#Firewall to add port
+
 portnumber: "22/tcp"
+
+#File to create with Content
+
 destinationfile: "/root/test.txt"
 content: "This is a test file with contents"
+
+#Multiple package to install
+
 packages: " telnet , vim "
+
+#Software to uninstall
+
 SoftwareNameToRemove: httpd
+
+#Selinux state you want
+
 selinuxstate: enforcing
 
 #Tomcat Installation Variables
@@ -23,3 +56,8 @@ admin_password: adminsecret
 
 #iscsi target with IQN 
 iscsi_target: iqn.1986-03.com.sun:02:f8c1f9e0-c3ec-ec84-c9c9-8bfb0cd5de3d
+
+#Mounting a Filesystem with UUID
+
+mountlocation: /newmountlocaltion
+sourceuuidtomount : b3e48f45-f933-4c8e-a700-22a159ec9077
