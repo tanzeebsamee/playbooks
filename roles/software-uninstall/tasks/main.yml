@@ -1,1 +1,3 @@
-
+---
+- name: Uninstall a Software from YUM repository
+  yum : name= {{ SoftwareNameToRemove }} state= absent
