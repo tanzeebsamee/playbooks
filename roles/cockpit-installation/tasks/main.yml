@@ -1,0 +1,20 @@
+---
+ - name : Installing Cockpit Packages
+   yum : 
+     name : "{{ cockpitpackages }}"
+   vars:
+     cockpitpackages:
+     - cockpit
+     - cockpit-networkmanager
+     - cockpit-dashboard
+     - cockpit-storaged
+     - cockput-packagekit
+     
+ - name : Enabling Cockpit Service at Startup
+   service: name= cockpit.socket enabled=yes
+   
+ - name : Adding Firewall to allow Cockpit Services
+   firewalld: 
+     service: cockpit
+     permanent: yes
+     state: enabled
