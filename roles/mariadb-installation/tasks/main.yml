@@ -1,0 +1,14 @@
+---
+ - name: Adding Maria DB Repository
+   yum_repository:
+     name: mariadb
+     description: mariadb YUM repository
+     baseurl: http://yum.mariadb.org/10.04/centos7-amd64
+     
+ - name: Installing Maria DB Packages
+   yum:
+     name: "{{ packages }}"
+   vars:
+     packages:
+     - MariaDB-server
+     - MariaDB-client
