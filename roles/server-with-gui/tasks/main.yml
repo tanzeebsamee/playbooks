@@ -1,0 +1,5 @@
+---
+ - name: Installing Server with GUI Packages at Minimal Installation OS
+   yum:
+    name: "@Server with GUI"
+    state: present
