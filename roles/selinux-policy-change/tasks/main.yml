@@ -1,0 +1,4 @@
+---
+ - name: Changing SELinux Policy to desired state as shared on Variable
+   selinux:
+     state: {{ selinuxstate }}
