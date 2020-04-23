@@ -1,0 +1,8 @@
+---
+ - name : Mounting a Filesystem with UUID
+   mount:
+    path: {{ mountlocaltion }}
+    src: UUID= {{sourceuuidtomount }}
+    fstype: ext4
+    opts: noatime
+    state: present
