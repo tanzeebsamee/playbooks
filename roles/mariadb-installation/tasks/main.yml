@@ -4,6 +4,7 @@
      name: mariadb
      description: mariadb YUM repository
      baseurl: http://yum.mariadb.org/10.04/centos7-amd64
+     enabled: yes
      
  - name: Installing Maria DB Packages
    yum:
