@@ -3,6 +3,4 @@
    file: 
      path:"/tmp/test1.txt" 
      state:touch 
-     owner:root 
-     group:root 
-     mode:0644
+     
