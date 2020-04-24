@@ -18,7 +18,7 @@ SoftwareName: httpd
 
 # Line to add at /etc/hosts file
 
-etcentry: "192.168.1.99 test.example.com"
+etcentry: "10.9.2.44 test1.grameenphone.com 10.9.2.45 test2.grameenphone.com"
 
 # File to ZIP
 
