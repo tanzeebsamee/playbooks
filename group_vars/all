@@ -6,7 +6,7 @@ name: Demo
 
 # File to create without content
 
-file1: "/root/text1.txt"
+file1: "/tmp/demo1.txt"
 
 # Service need to restart
 
