@@ -1,9 +1,9 @@
 ---
 - name : Creating the users
   user: 
-    name : "{{ $name }}"
+    name : "{{ name }}"
     password : "{{ 'Abc123' }} | password_hash{{ ('sha512') }}"
     shell : /bin/bash
     group : wheel
     groups : wheel
-    home : /home/{{ $name }} 
+    home : /home/{{ name }} 
