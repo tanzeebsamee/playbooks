@@ -1,6 +1,6 @@
 --- 
  - name: create a file
    file: 
-     name: "/tmp/test1.txt" 
+     path: /tmp/test1.txt 
      state: touch 
      
