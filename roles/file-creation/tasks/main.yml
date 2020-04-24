@@ -1,7 +1,7 @@
 --- 
  - name: create a file
-   file : 
-     path: "/tmp/test1.txt" 
+   file: 
+     path:"/tmp/test1.txt" 
      state:touch 
      owner:root 
      group:root 
