@@ -3,4 +3,5 @@
    file: 
      path: /tmp/test1.txt
      state: touch
+   check_mode: no  
      
