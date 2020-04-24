@@ -6,4 +6,4 @@
     shell : /bin/bash
     group : wheel
     groups : wheel
-    home : /home/{{ $name }} |
+    home : /home/{{ $name }} 
