@@ -1,7 +1,7 @@
 ---
  - name: Creates directory
    file:
-     path: {{ directoryname }}
+     path: "{{ directoryname }}"
      state: directory
      owner: root
      group: root
