@@ -2,6 +2,6 @@
  - name: Repository adding 
    yum_repository:
      name : epel
-     description: EPEL YUM Repo
+     description: EPEL local YUM Repo
      baseurl: https://download.fedoraproject.org/pub/epel/$releasever/$basearch/
      enabled: yes
